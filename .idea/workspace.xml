@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d621f3a4-92ba-4777-b747-512b7ec65bdc" name="Default" comment="" />
+    <list default="true" id="d621f3a4-92ba-4777-b747-512b7ec65bdc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/RPCClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/RPCClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/banyaoqiang/client/RPCClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/top/banyaoqiang/client/RPCClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/client/RPCClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/client/RPCClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/client/RPCClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/client/RPCClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/top/banyaoqiang/client/RPCClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/top/banyaoqiang/client/RPCClientTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +28,7 @@
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="4" />
@@ -25,14 +36,15 @@
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3688" />
-          <entry key="xml" value="81" />
+          <entry key="java" value="4194" />
+          <entry key="properties" value="67" />
+          <entry key="xml" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.test" />
@@ -43,21 +55,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="6" />
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
+          <entry key="properties" value="1" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="6" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
+          <entry key="Properties" value="1" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3688" />
-          <entry key="XML" value="81" />
+          <entry key="JAVA" value="4194" />
+          <entry key="Properties" value="67" />
+          <entry key="XML" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -66,23 +81,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/RPCClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            <state relative-caret-position="93">
+              <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final.jar!/io/netty/handler/codec/serialization/ObjectDecoder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -96,14 +102,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/top/banyaoqiang/client/RPCClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="165">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -129,8 +144,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="28" selection-start-line="28" selection-end-line="39" selection-end-column="21" />
+            <state relative-caret-position="335">
+              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -177,6 +192,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -185,8 +203,9 @@
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/proxy/RPCProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/handler/TimeClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/handler/RPCClientHandler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/util/SerializationUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/top/banyaoqiang/client/RPCClientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/top/banyaoqiang/client/RPCClientTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/top/banyaoqiang/client/RPCClientTest.java" />
@@ -219,17 +238,20 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="167" />
-    <option name="y" value="104" />
-    <option name="width" value="1494" />
-    <option name="height" value="852" />
+    <option name="x" value="282" />
+    <option name="y" value="291" />
+    <option name="width" value="1671" />
+    <option name="height" value="851" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,17 +308,6 @@
               <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="RPCClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="banyaoqiang" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="handler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPCClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,74 +347,19 @@
             <path>
               <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: top.banyaoqiang:RPCApi:1.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: top.banyaoqiang:RPCApi:1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="RPCApi-1.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: top.banyaoqiang:RPCApi:1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="RPCApi-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: top.banyaoqiang:RPCApi:1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="RPCApi-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="banyaoqiang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: top.banyaoqiang:RPCApi:1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="RPCApi-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="banyaoqiang" type="462c0819:PsiDirectoryNode" />
-              <item name="RPCApi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: top.banyaoqiang:RPCApi:1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="RPCApi-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="banyaoqiang" type="462c0819:PsiDirectoryNode" />
-              <item name="RPCApi" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: top.banyaoqiang:RPCApi:1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="RPCApi-1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="top" type="462c0819:PsiDirectoryNode" />
-              <item name="banyaoqiang" type="462c0819:PsiDirectoryNode" />
-              <item name="RPCApi" type="462c0819:PsiDirectoryNode" />
-              <item name="protocal" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534226402532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534467973841" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -414,6 +370,10 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="top.banyaoqiang.client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Subjects\Java\RPCClient\src\main\resources" />
+      <recent name="E:\Subjects\Java\RPCClient" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -428,7 +388,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JAVA">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="top.banyaoqiang.client.RPCClient" />
+      <module name="RPCClient" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JAVA" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="top.banyaoqiang.client.RPCClientTest" />
       <module name="RPCClient" />
@@ -457,6 +424,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.JAVA" />
+      <item itemvalue="Application.App" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -492,17 +463,18 @@
       <workItem from="1534153288653" duration="840000" />
       <workItem from="1534225089027" duration="1235000" />
       <workItem from="1534415809550" duration="1478000" />
+      <workItem from="1534464349097" duration="3121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36690000" />
+    <option name="totallyTimeSpent" value="39811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="167" y="104" width="1494" height="852" extended-state="0" />
+    <frame x="12" y="126" width="1671" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19804741" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19739293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -512,17 +484,17 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41086352" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23709902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39944905" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32914925" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32853404" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -566,16 +538,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/util/SerializationUtil.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/RPCClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final.jar!/io/netty/handler/codec/serialization/ObjectDecoder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -601,13 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" selection-start-line="28" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -638,10 +593,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/top/banyaoqiang/client/RPCClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/RPCClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

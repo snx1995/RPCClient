@@ -5,11 +5,15 @@ import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import top.banyaoqiang.MyLog.MyLog;
 import top.banyaoqiang.RPCApi.common.coder.RPCDecoder;
 import top.banyaoqiang.RPCApi.common.coder.RPCEncoder;
 import top.banyaoqiang.RPCApi.protocal.RPCRequest;
 import top.banyaoqiang.RPCApi.protocal.RPCResponse;
+
+import java.io.File;
 import java.lang.reflect.Proxy;
 import java.util.HashMap;
 
@@ -50,7 +54,6 @@ public class RPCClient extends ChannelInboundHandlerAdapter {
                         try {
                             Bootstrap b = new Bootstrap();
                             b.group(worker);
-                            b.option(ChannelOption.SO_KEEPALIVE, true);
                             b.channel(NioSocketChannel.class);
                             b.handler(new ChannelInitializer<SocketChannel>() {
                                 @Override
@@ -64,6 +67,7 @@ public class RPCClient extends ChannelInboundHandlerAdapter {
                             });
 
                             ChannelFuture f = b.connect(SERVER_ADDRESS, PORT);
+                            f.sync();
                             Channel channel = f.channel();
 
                             RPCRequest request = new RPCRequest();
@@ -72,7 +76,7 @@ public class RPCClient extends ChannelInboundHandlerAdapter {
                             request.setParameterTypes(method.getParameterTypes());
                             request.setParameters(args);
 
-                            channel.writeAndFlush(request).sync();
+                            channel.pipeline().context(RPCClient.class).writeAndFlush(request).sync();
                             channel.closeFuture().sync();
                         } catch (Exception e) {
                             MyLog.log(e.getMessage());
@@ -86,7 +90,8 @@ public class RPCClient extends ChannelInboundHandlerAdapter {
         return (T) o;
     }
 
-    private ChannelFuture send(RPCRequest request) {
-        return context.writeAndFlush(request);
+    public static void main(String[] args) {
+
     }
+
 }

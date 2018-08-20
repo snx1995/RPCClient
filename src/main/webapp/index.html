@@ -5,6 +5,16 @@
     <title>Test Html</title>
 </head>
 <body>
+<img src="/common/resource/img/1.jpg" alt="">
 
+<script src="/common/lib/jquery/jquery-3.3.1.min.js"></script>
+<script>
+    $(function () {
+        $.getJSON("/test/testMethod.action", function (response) {
+            console.log(response);
+        });
+        window.location = "/pages/authority/login.html";
+    });
+</script>
 </body>
 </html>

@@ -17,11 +17,11 @@ import java.util.List;
  */
 
 @Controller
+@ResponseBody
 @RequestMapping("/platform")
 public class PlatformManageController extends BaseController {
 
-    @RequestMapping(value = "/getLimitedFunction", produces = "application/json; charset=utf-8")
-    @ResponseBody
+    @RequestMapping(value = "/getLimitedFunction")
     public String getLimitedFunction(HttpServletRequest request) {
         Integer userId = getIntParam(request, "userId");
 

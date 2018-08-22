@@ -17,11 +17,12 @@ import javax.servlet.http.HttpServletRequest;
  * Created by 班耀强 on 2018/8/20
  */
 @Controller
+@ResponseBody
 @RequestMapping("/authority")
 public class UserAuthorityController extends BaseController {
     private static final Logger logger = LoggerFactory.getLogger(UserAuthorityController.class);
 
-    @ResponseBody
+
     @RequestMapping("/login")
     public String login(HttpServletRequest request) {
         Integer account = getIntParam(request, "account");

@@ -43,3 +43,31 @@ body, html {
 .btn-wide {
     width: 100%;
 }
+.background-img {
+    width: auto;
+    height: 120%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.blur {
+    filter: blur(blur.svg#blur);
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+    -ms-filter: blur(10px);
+}
+.login-form {
+    background-color: rgba(244, 244, 244, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 375px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.content {
+    width: fit-content;
+    height: fit-content;
+}

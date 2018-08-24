@@ -13,6 +13,7 @@ import top.banyaoqiang.RPCApi.common.coder.RPCDecoder;
 import top.banyaoqiang.RPCApi.common.coder.RPCEncoder;
 import top.banyaoqiang.RPCApi.protocal.RPCRequest;
 import top.banyaoqiang.RPCApi.protocal.RPCResponse;
+import top.banyaoqiang.RPCApi.protocal.RPCResponses;
 
 import java.lang.reflect.Proxy;
 import java.util.HashMap;
@@ -39,9 +40,8 @@ public class RPCClient extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        logger.debug("收到响应");
-        if (msg instanceof RPCResponse) response = (RPCResponse) msg;
-        else response = null;
+        response = (RPCResponse) msg;
+        logger.debug("收到响应 {} ", response.getStatus());
     }
 
     @SuppressWarnings("unchecked")
@@ -84,7 +84,13 @@ public class RPCClient extends ChannelInboundHandlerAdapter {
                             worker.shutdownGracefully();
                             logger.debug("客户端关闭");
                         }
-                        return response.getResult();
+
+                        if (response == null) return null;
+
+                        if (response.getStatus() == 200) return response.getResult();
+
+                        if (response.exceptionHappened()) response.getException().printStackTrace();
+                        return null;
                     });
             proxys.put(serviceInterface.getName(), o);
         }

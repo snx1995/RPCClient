@@ -40,6 +40,9 @@ body, html {
     width: fit-content;
     margin: 20px auto;
 }
+.button-panel .btn + .btn {
+    margin-left: 50px;
+}
 .btn-wide {
     width: 100%;
 }
@@ -57,17 +60,21 @@ body, html {
     -ms-filter: blur(10px);
 }
 .login-form {
-    background-color: rgba(244, 244, 244, 0.8);
+    padding: 30px 20px 0 20px;
+    background-color: rgba(244, 244, 244, 0.6);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    height: 375px;
+    height: auto;
     border-radius: 10px;
     overflow: hidden;
 }
-.content {
-    width: fit-content;
-    height: fit-content;
+.form-table {
+    width: 80%;
+    margin: 0 auto;
+}
+table.form-table td {
+    padding: 10px;
 }

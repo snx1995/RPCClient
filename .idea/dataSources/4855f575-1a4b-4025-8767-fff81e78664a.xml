@@ -980,7 +980,7 @@
     </column>
     <column id="247" parent="239" name="password">
       <Position>3</Position>
-      <DataType>varchar(30)|0s</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
@@ -988,6 +988,7 @@
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
+      <DefaultExpression>&apos;10&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="249" parent="239" name="phone">

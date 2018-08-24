@@ -14,23 +14,23 @@
     <img src="/common/resource/img/3.jpg" class="background-img blur" alt="背景图片">
 
     <div class="login-form">
-        <div class="content" id="loginForm">
-            <el-form :model="loginForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
-                <el-form-item label="账号" prop="account">
-                    <el-input v-model="loginForm.account"></el-input>
-                </el-form-item>
-                <el-form-item label="密码" type="password" prop="password">
-                    <el-input v-model="loginForm.password"></el-input>
-                </el-form-item>
-                <el-form-item>
-                    <el-check-box label="记住密码"></el-check-box>
-                </el-form-item>
-                <el-form-item>
-                    <el-button type="primary" @click="submitForm('loginForm')">登录</el-button>
-                    <el-button @click="resetForm('loginForm')">注册</el-button>
-                </el-form-item>
-            </el-form>
-        </div>
+        <h4>登录:</h4>
+        <table class="form-table">
+            <tr>
+                <td><input type="text" id="account" name="account" class="form-control"></td>
+            </tr>
+            <tr>
+                <td><input type="password" id="password" name="password" class="form-control"></td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="button-panel">
+                        <button id="registerBtn" class="btn btn-info">注册</button>
+                        <button id="loginBtn" class="btn btn-primary">登录</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
     </div>
 
 </div>
@@ -39,12 +39,9 @@
 <script src="/common/lib/bootstrap/bootstrap.min.js"></script>
 <script src="/common/lib/md5/md5.min.js"></script>
 <script src="/common/lib/md5/encrypt.js"></script>
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
-<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="js/login.js"></script>
 <script>
-    $(function () {
-
-    });
+    LoginPage.init();
 </script>
 </body>
 </html>

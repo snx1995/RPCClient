@@ -22,7 +22,7 @@ public final class RequestResult {
     }
 
     public static String error(Object result) {
-        return JSON.toJson(new Response(500, null));
+        return JSON.toJson(new Response(500, result));
     }
 
     public static String notFound() {

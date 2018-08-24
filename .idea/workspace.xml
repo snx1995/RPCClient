@@ -7,23 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d621f3a4-92ba-4777-b747-512b7ec65bdc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/AuthorityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/CacheControlFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/learn/element/learn-element.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RPCClient/WEB-INF/classes/top/banyaoqiang/web/filter/AuthorityFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/RPCClient/WEB-INF/classes/top/banyaoqiang/web/filter/CacheControlFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/web/filter/AuthorityFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/web/filter/CacheControlFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/controller/authority/UserAuthorityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/controller/authority/UserAuthorityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/AuthorityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/AuthorityFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/Learn/element/learn-element.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/RPCClient/common/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/authority/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/authority/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/authority/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/authority/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RPCClient/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/RPCClient/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RPCClient/WEB-INF/classes/top/banyaoqiang/web/controller/authority/UserAuthorityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RPCClient/WEB-INF/classes/top/banyaoqiang/web/controller/authority/UserAuthorityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RPCClient/WEB-INF/classes/top/banyaoqiang/web/filter/AuthorityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/RPCClient/WEB-INF/classes/top/banyaoqiang/web/filter/AuthorityFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RPCClient/WEB-INF/lib/RPCApi-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/RPCClient/WEB-INF/lib/RPCApi-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/RPCClient/common/lib/md5/encrypt.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/RPCClient/common/lib/md5/encrypt.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/RPCClient/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/RPCClient/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RPCClient/pages/Learn/element/learn-element.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/RPCClient/pages/Learn/element/learn-element.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/web/controller/authority/UserAuthorityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/web/controller/authority/UserAuthorityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/web/filter/AuthorityFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/web/filter/AuthorityFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,14 +38,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="byq@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="byq@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="byq@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="byq: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="911308670">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="1" />
@@ -61,29 +71,32 @@
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="cell" value="10" />
           <entry key="css" value="977" />
           <entry key="dummy" value="24" />
-          <entry key="html" value="1696" />
-          <entry key="java" value="10681" />
+          <entry key="html" value="1936" />
+          <entry key="java" value="12895" />
           <entry key="js" value="94" />
           <entry key="json" value="75" />
           <entry key="jsp" value="17" />
           <entry key="properties" value="73" />
-          <entry key="txt" value="12" />
+          <entry key="txt" value="15" />
           <entry key="xml" value="752" />
         </counts>
       </usages-collector>
@@ -96,13 +109,15 @@
         <counts>
           <entry key="class" value="10" />
           <entry key="css" value="9" />
-          <entry key="html" value="12" />
-          <entry key="java" value="27" />
+          <entry key="html" value="17" />
+          <entry key="java" value="31" />
           <entry key="js" value="7" />
           <entry key="json" value="1" />
           <entry key="jsp" value="2" />
+          <entry key="main_function" value="1" />
           <entry key="map" value="1" />
           <entry key="properties" value="4" />
+          <entry key="sql" value="1" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
@@ -110,12 +125,14 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="CSS" value="9" />
-          <entry key="HTML" value="12" />
-          <entry key="JAVA" value="27" />
+          <entry key="Database Element" value="1" />
+          <entry key="HTML" value="17" />
+          <entry key="JAVA" value="31" />
           <entry key="JSON" value="1" />
           <entry key="JSP" value="2" />
           <entry key="JavaScript" value="7" />
           <entry key="Properties" value="4" />
+          <entry key="Scratch" value="1" />
           <entry key="SourceMap" value="1" />
           <entry key="XML" value="12" />
         </counts>
@@ -123,13 +140,14 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="977" />
-          <entry key="HTML" value="1696" />
-          <entry key="JAVA" value="10681" />
+          <entry key="HTML" value="1936" />
+          <entry key="JAVA" value="12895" />
           <entry key="JSON" value="75" />
           <entry key="JSP" value="17" />
           <entry key="JavaScript" value="94" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="PLAIN_TEXT" value="39" />
           <entry key="Properties" value="73" />
+          <entry key="Scratch" value="10" />
           <entry key="XML" value="752" />
         </counts>
       </usages-collector>
@@ -139,62 +157,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/learn/element/learn-element.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="72" selection-start-line="72" selection-end-line="73" selection-end-column="65" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-date-picker#0;n#el-form-item#0;n#el-col#0;n#el-form-item#2;n#el-form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#el-time-picker#0;n#el-form-item#0;n#el-col#2;n#el-form-item#2;n#el-form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/common/lib/md5/md5.min.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/css/login.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/js/login.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/common/lib/md5/encrypt.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/controller/authority/UserAuthorityController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="1104">
+              <caret line="52" column="92" selection-start-line="52" selection-start-column="92" selection-end-line="52" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,32 +172,76 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/AuthorityFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1080">
+              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4855f575-1a4b-4025-8767-fff81e78664a/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://4855f575-1a4b-4025-8767-fff81e78664a/schema/byq/table/main_function">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/CacheControlFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/util/ProjectAttributeKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/un-login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/unauthorised.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/util/ProjectPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -241,9 +255,9 @@
         <option value="Jsp File" />
         <option value="CSS File" />
         <option value="FxmlFile" />
-        <option value="HTML File" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -258,12 +272,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/RPCClientTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/client/TestClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/proxy/RPCProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/handler/TimeClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/handler/RPCClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/util/SerializationUtil.java" />
         <option value="$PROJECT_DIR$/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/RPCClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/RPCClient.java" />
@@ -294,7 +302,6 @@
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/WebEncodingFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/WebCharacterEncodingFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/CharacterEncodingFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/controller/authority/UserAuthorityController.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/controller/platform/PlatformManageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/common/lib/project/common.css" />
@@ -302,13 +309,20 @@
         <option value="$PROJECT_DIR$/src/main/webapp/pages/Learn/element/learn-element.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/learn/element/learn-element.html" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/AhtuorityFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/AuthorityFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/CacheControlFilter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/authority/css/login.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/pages/authority/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/common/lib/md5/encrypt.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/authority/register.html" />
+        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/util/ProjectAttributeKey.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/authority/un-login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/authority/unauthorised.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/error.html" />
+        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/util/ProjectPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/controller/authority/UserAuthorityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/AuthorityFilter.java" />
       </list>
     </option>
   </component>
@@ -348,10 +362,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="474" />
-    <option name="y" value="73" />
-    <option name="width" value="1377" />
-    <option name="height" value="951" />
+    <option name="x" value="70" />
+    <option name="y" value="89" />
+    <option name="width" value="1809" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -361,6 +375,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -422,7 +437,41 @@
               <item name="top" type="462c0819:PsiDirectoryNode" />
               <item name="banyaoqiang" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RPCClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="banyaoqiang" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="authority" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RPCClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="banyaoqiang" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RPCClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="top" type="462c0819:PsiDirectoryNode" />
+              <item name="banyaoqiang" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
@@ -437,33 +486,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPCClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPCClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPCClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="md5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RPCClient" type="b2602c69:ProjectViewProjectNode" />
@@ -518,18 +540,19 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534989019898" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535025295023" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -784,7 +807,11 @@
       <workItem from="1534896222915" duration="24000" />
       <workItem from="1534896326937" duration="68000" />
       <workItem from="1534896425667" duration="9972000" />
-      <workItem from="1534982243717" duration="6098000" />
+      <workItem from="1534982243717" duration="7449000" />
+      <workItem from="1534994298270" duration="2574000" />
+      <workItem from="1535015734409" duration="82000" />
+      <workItem from="1535020165564" duration="5187000" />
+      <workItem from="1535077026248" duration="1354000" />
     </task>
     <servers />
   </component>
@@ -821,7 +848,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94761000" />
+    <option name="totallyTimeSpent" value="105309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,10 +860,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="474" y="73" width="1377" height="951" extended-state="0" />
-    <editor active="true" />
+    <frame x="70" y="89" width="1809" height="944" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22247532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1903945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -844,18 +870,19 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32880098" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34191176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17799753" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3986755" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2646421" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2634804" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.3231788" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3226205" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.329718" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.329718" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3286334" />
       <window_info anchor="bottom" id="Spring" order="14" weight="0.329718" />
@@ -865,7 +892,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3298292" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.2647227" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -877,44 +904,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final.jar!/io/netty/handler/codec/serialization/ObjectDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.24.Final/netty-all-4.0.24.Final.jar!/io/netty/handler/codec/serialization/ObjectEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/log4j.xml" />
-    <entry file="file://$PROJECT_DIR$/src/test/log4j.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/RPCClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="52" column="72" selection-start-line="52" selection-start-column="72" selection-end-line="52" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/top/banyaoqiang/RPCApi/1.0/RPCApi-1.0.jar!/top/banyaoqiang/RPCApi/protocal/RPCResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/top/banyaoqiang/RPCApi/1.0/RPCApi-1.0.jar!/top/banyaoqiang/RPCApi/entity/ServerInfo.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/client/handler/TimeClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -983,8 +972,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/common/lib/bootstrap/bootstrap.bundle.js.map">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/common/lib/bootstrap/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1007,16 +996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getIntParam#0;class#BaseController#0" />
-            <element signature="method#getDoubleParam#0;class#BaseController#0" />
-            <element signature="method#getFloatParam#0;class#BaseController#0" />
-            <element signature="method#getStringArrayParam#0;class#BaseController#0" />
-            <element signature="method#getIntArrayParam#0;class#BaseController#0" />
-            <element signature="method#getDoubleArrayParam#0;class#BaseController#0" />
-            <element signature="method#getFloatArrayParam#0;class#BaseController#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,9 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,9 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,13 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/controller/authority/UserAuthorityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/common/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1115,48 +1081,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/AuthorityFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/CacheControlFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="40" column="33" lean-forward="true" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/learn/element/learn-element.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="1728">
           <caret line="72" selection-start-line="72" selection-end-line="73" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-date-picker#0;n#el-form-item#0;n#el-col#0;n#el-form-item#2;n#el-form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#el-time-picker#0;n#el-form-item#0;n#el-col#2;n#el-form-item#2;n#el-form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/lib/md5/md5.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
+        <state relative-caret-position="1128">
           <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
         </state>
       </provider>
@@ -1164,27 +1101,107 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/js/login.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/lib/md5/encrypt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/CacheControlFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="624">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/lib/md5/md5.min.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/util/ProjectAttributeKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/un-login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/authority/unauthorised.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/util/ProjectPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4855f575-1a4b-4025-8767-fff81e78664a/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/lib/md5/encrypt.js">
+    <entry file="das://4855f575-1a4b-4025-8767-fff81e78664a/schema/byq/table/main_function">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/filter/AuthorityFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="1080">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/web/controller/authority/UserAuthorityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="52" column="92" selection-start-line="52" selection-start-column="92" selection-end-line="52" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

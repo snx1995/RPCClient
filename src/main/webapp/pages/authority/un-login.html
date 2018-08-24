@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>需要登录</title>
+</head>
+<body>
+<span>
+    游客无权访问此页面, 正在跳转到登录页面.
+</span>
+<script src="/common/lib/jquery/jquery-3.3.1.min.js"></script>
+<script>
+    $(function () {
+        setTimeout(function () {
+            window.location = "/pages/authority/login.html";
+        }, 3000);
+    });
+</script>
+</body>
+</html>

@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test Html</title>
+    <title>首页</title>
 </head>
 <body>
-<img src="/common/resource/img/1.jpg" alt="">
+<h1>首页</h1>
 
 <script src="/common/lib/jquery/jquery-3.3.1.min.js"></script>
 <script>
@@ -13,7 +13,6 @@
         $.getJSON("/test/testMethod.action", function (response) {
             console.log(response);
         });
-        window.location = "/pages/authority/login.html";
     });
 </script>
 </body>

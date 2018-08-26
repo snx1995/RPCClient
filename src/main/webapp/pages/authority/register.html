@@ -2,9 +2,96 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>注册BYQ</title>
+    <link rel="stylesheet" href="/common/lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/common/lib/project/common.css">
+    <link rel="stylesheet" href="/common/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
+<h1><i class="fa fa-cloud"></i><a href="/">BYQ</a></h1>
+<div class="side-content">
+    <img src="img/2.jpg" class="blur" alt="side img">
+</div>
+<div class="content">
+    <div class="header right">
+        <ul class="menu-horizontal menu-dark">
+            <li><i class="fa fa-arrow-circle-o-right"></i><a href="/pages/authority/login.html">已有账号?</a></li>
+            <li><i class="fa fa-feed"></i><a href="/">意见反馈</a></li>
+        </ul>
+    </div>
+    <form id="registerForm" onsubmit="return false;">
+        <table class="form-table">
+            <tr>
+                <td colspan="2">
+                    <h1>欢迎注册BYQ~</h1>
+                    <p>惊鸿入耳，温柔了沧桑。葱茏古意的日子里，把红尘一砖一瓦砌成墙，让两岸桃花盛开到心慌。</p>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="name" class="required">昵称:</label></td>
+                <td><input type="text" name="name" id="name" class="form-control" required></td>
+            </tr>
+            <tr>
+                <td><label for="password" class="required">密码:</label></td>
+                <td><input type="password" name="password" id="password" class="form-control" required></td>
+            </tr>
+            <tr>
+                <td><label for="passwordConfirm" class="required">确认密码:</label></td>
+                <td><input type="password" name="passwordConfirm" id="passwordConfirm" class="form-control" required></td>
+            </tr>
+            <tr>
+                <td><label for="sex">性别:</label></td>
+                <td>
+                    <select class="form-control" name="sex" id="sex">
+                        <option value="1">男</option>
+                        <option value="0">女</option>
+                        <option value="-1" selected>保密</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phone">电话:</label></td>
+                <td><input type="text" name="phone" id="phone" class="form-control"></td>
+            </tr>
+            <tr>
+                <td><label for="education">学历:</label></td>
+                <td><input type="text" name="education" id="education" class="form-control"></td>
+            </tr>
+            <tr>
+                <td><label for="job">职业:</label></td>
+                <td><input type="text" name="job" id="job" class="form-control"></td>
+            </tr>
+            <tr>
+                <td><label for="birthday">生日</label></td>
+                <td><input type="date" name="birthday" id="birthday" class="form-control"></td>
+            </tr>
+            <tr>
+                <td><label for="address">地址:</label></td>
+                <td><input type="text" name="address" id="address" class="form-control"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="button-panel">
+                        <input type="reset" class="btn btn-info" value="重置">
+                        <input type="submit" class="btn btn-primary" id="registerSubmit" value="提交">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
 
+<script src="/common/lib/jquery/jquery-3.3.1.min.js"></script>
+<script src="/common/lib/jquery/validate/jquery.validate.min.js"></script>
+<script src="/common/lib/bootstrap/bootstrap.min.js"></script>
+<script src="/common/lib/md5/md5.min.js"></script>
+<script src="/common/lib/md5/encrypt.js"></script>
+<script src="js/register.js"></script>
+<script>
+    $(function () {
+        RegisterPage.init();
+    });
+</script>
 </body>
 </html>

@@ -2,17 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>首页</title>
+    <title>BYQ</title>
+    <link rel="stylesheet" href="/common/lib/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/common/lib/project/common.css">
+    <link rel="stylesheet" href="/common/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
-<h1>首页</h1>
+<img src="/common/resource/img/bg2.jpg" class="center-react-horizontal blur" alt="bg"/>
+<img src="/common/resource/img/mainText.png" />
+<div class="header">
+    <ul class="menu-horizontal menu-light">
+        <li><i class="fa fa-book"></i><a href="/pages/blog/index.html">博客</a></li>
+        <li><i class="fa fa-file"></i><a href="/pages/file-share/index.html">共享文件</a></li>
+        <li><i class="fa fa-magic"></i><a href="/pages/magic/index.html">神秘之地</a></li>
+        <li id="user"><i class="fa fa-user"></i></li>
+    </ul>
+</div>
 
 <script src="/common/lib/jquery/jquery-3.3.1.min.js"></script>
+<script src="/common/lib/jquery/validate/jquery.validate.min.js"></script>
+<script src="/common/lib/bootstrap/bootstrap.min.js"></script>
+<script src="/common/lib/md5/md5.min.js"></script>
+<script src="/common/lib/md5/encrypt.js"></script>
+<script src="js/index.js"></script>
 <script>
     $(function () {
-        $.getJSON("/test/testMethod.action", function (response) {
-            console.log(response);
-        });
+        IndexPage.init();
     });
 </script>
 </body>

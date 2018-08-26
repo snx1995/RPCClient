@@ -14,6 +14,7 @@ import top.banyaoqiang.client.RPCClient;
 import top.banyaoqiang.web.controller.BaseController;
 import top.banyaoqiang.web.util.ProjectAttributeKey;
 import top.banyaoqiang.web.util.RequestResult;
+import top.banyaoqiang.web.util.UserUtil;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -42,10 +43,12 @@ public class UserAuthorityController extends BaseController {
         } catch (Exception e) {
             id = null;
         }
-        User user = null;
-        if ((user = (User) request.getSession().getAttribute(ProjectAttributeKey.LOGIN_USER)) != null)
-            if (user.getName().equals(name) || (id != null && user.getId() == id))
-                return RequestResult.error("请勿重复登录!");
+        User user = (User) request.getSession().getAttribute(ProjectAttributeKey.LOGIN_USER);
+
+        // 如果不是游客, 判断是否是已经登陆的用户
+        if (!UserUtil.isVisitor(user))
+            if (user.getName().equals(name) || (id != null && user.getId().equals(id)))
+                return RequestResult.forbidden("请勿重复登录!");
 
         UserAuthorityService service = RPCClient.create(UserAuthorityService.class);
         if (id != null) user = service.login(id, password);
@@ -53,13 +56,6 @@ public class UserAuthorityController extends BaseController {
 
         if (user != null) {
             request.getSession().setAttribute(ProjectAttributeKey.LOGIN_USER, user);
-            PlatformService platformService = RPCClient.create(PlatformService.class);
-            List<WebFunction> functions = platformService.getLimitedFunctions(user.getId());
-            List<String> urls = new ArrayList<>();
-            for (WebFunction w : functions) {
-                urls.add(w.getFuncUrl());
-            }
-            request.getSession().setAttribute(ProjectAttributeKey.LOGIN_USER_FUNCTIONS, urls);
             return RequestResult.success("success");
         }
         return RequestResult.error("用户名或密码错误");
@@ -79,11 +75,12 @@ public class UserAuthorityController extends BaseController {
         Map<String, Object> param = new HashMap<>();
         param.put("name", getStringParam(request, "name"));
         param.put("password", getStringParam(request, "password"));
+        param.put("sex", getIntParam(request, "sex"));
         param.put("phone", getStringParam(request, "phone"));
         param.put("address", getStringParam(request, "address"));
         param.put("education", getStringParam(request, "education"));
         param.put("job", getStringParam(request, "job"));
-        param.put("birthday", getStringParam(request, "birthday"));
+        param.put("birthday", getDateParam(request, "birthday"));
         User user = service.register(param);
         if (user != null) return RequestResult.success("success");
         return RequestResult.error("注册失败");

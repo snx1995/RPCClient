@@ -1,18 +1,32 @@
 package top.banyaoqiang.web.util;
 
+import top.banyaoqiang.RPCApi.api.platform.PlatformService;
+import top.banyaoqiang.RPCApi.entity.User;
+import top.banyaoqiang.RPCApi.entity.platform.WebFunction;
+import top.banyaoqiang.client.RPCClient;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Created by 班耀强 on 2018/8/23
  */
-public class ProjectPage {
+public final class ProjectPage {
+
+    private static final Map<String, WebFunction> functionHashMap = new HashMap<>();
+
+    static {
+        PlatformService service = RPCClient.create(PlatformService.class);
+        List<WebFunction> functions = service.getAllFunctions();
+
+        for (WebFunction f : functions) {
+            functionHashMap.put(f.getFuncUrl(), f);
+        }
+    }
 
     // 首页, 无需登录
     public static final String INDEX_PAGE = "/";
-
-    // 未授权跳转页面
-    public static final String UNAUTHORISED_PAGE = "/pages/authority/unauthorised.html";
-
-    // 未登录跳转页面
-    public static final String UN_LOGIN_PAGE = "/pages/authority/un-login.html";
 
     // 登录页面
     public static final String LOGIN_PAGE = "/pages/authority/login.html";
@@ -23,10 +37,15 @@ public class ProjectPage {
     // 出错页面
     public static final String ERROR_PAGE = "/error.html";
 
-    public static boolean isCommonPage(String url) {
-        return url.equals(UNAUTHORISED_PAGE) ||
-                url.equals(UN_LOGIN_PAGE) ||
-                url.equals(LOGIN_PAGE) ||
-                url.equals(REGISTER_PAGE);
+    // 无权限页面
+    public static final String UNQUALIFIED_PAGE = "/pages/authority/unqualified.html";
+
+    private static final String MAGIC_PAGE = "/pages/magic/index.html";
+
+    public static boolean isQualified(User user, String url) {
+        if (url.equals(MAGIC_PAGE)) return user.isSelected();
+
+        WebFunction function = functionHashMap.get(url);
+        return function == null || user.getAuthLv() <= function.getAuthLv();
     }
 }

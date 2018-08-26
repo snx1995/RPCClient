@@ -19,9 +19,13 @@ let LoginPage = (function () {
                         password: password
                     }, function (response) {
                     if (response.status === 200 && response.data === "success") {
-                        alert("登录成功");
+                        window.location = "/";
                     } else alert(response.data);
                 })
+            });
+
+            $registerBtn.click(function () {
+                window.location = "/pages/authority/register.html";
             });
         }
     }

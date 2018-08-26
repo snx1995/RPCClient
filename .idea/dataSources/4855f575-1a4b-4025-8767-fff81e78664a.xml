@@ -942,154 +942,223 @@
     <table id="238" parent="4" name="auth_level"/>
     <table id="239" parent="4" name="cloud_user"/>
     <table id="240" parent="4" name="main_function"/>
-    <column id="241" parent="238" name="auth_lv">
+    <table id="241" parent="4" name="score_log">
+      <Comment>积分历史</Comment>
+    </table>
+    <column id="242" parent="238" name="auth_lv">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="242" parent="238" name="description">
+    <column id="243" parent="238" name="description">
       <Position>2</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="243" parent="238" name="score_required">
+    <column id="244" parent="238" name="score_required">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="244" parent="238" name="PRIMARY">
+    <key id="245" parent="238" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>auth_lv</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="245" parent="239" name="id">
+    <column id="246" parent="239" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="246" parent="239" name="name">
+    <column id="247" parent="239" name="name">
       <Position>2</Position>
-      <DataType>varchar(30)|0s</DataType>
+      <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="247" parent="239" name="password">
+    <column id="248" parent="239" name="password">
       <Position>3</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="248" parent="239" name="auth_lv">
+    <column id="249" parent="239" name="sex">
       <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>&apos;-1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="250" parent="239" name="phone">
+      <Position>5</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="251" parent="239" name="address">
+      <Position>6</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="252" parent="239" name="education">
+      <Position>7</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="253" parent="239" name="job">
+      <Position>8</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="254" parent="239" name="birthday">
+      <Position>9</Position>
+      <DataType>date|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="255" parent="239" name="auth_lv">
+      <Position>10</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <DefaultExpression>&apos;10&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="249" parent="239" name="phone">
-      <Position>5</Position>
-      <DataType>varchar(20)|0s</DataType>
+    <column id="256" parent="239" name="score">
+      <Position>11</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;5&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="250" parent="239" name="address">
-      <Position>6</Position>
-      <DataType>varchar(100)|0s</DataType>
+    <column id="257" parent="239" name="selected">
+      <Position>12</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="251" parent="239" name="education">
-      <Position>7</Position>
-      <DataType>varchar(100)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="252" parent="239" name="job">
-      <Position>8</Position>
-      <DataType>varchar(30)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="253" parent="239" name="birthday">
-      <Position>9</Position>
-      <DataType>date|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="254" parent="239" name="name">
+    <index id="258" parent="239" name="name">
       <ColNames>name</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="255" parent="239" name="fk_id">
+    <index id="259" parent="239" name="fk_id">
       <ColNames>auth_lv</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="256" parent="239" name="PRIMARY">
+    <key id="260" parent="239" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="257" parent="239" name="name">
+    <key id="261" parent="239" name="name">
       <ColNames>name</ColNames>
       <UnderlyingIndexName>name</UnderlyingIndexName>
     </key>
-    <foreign-key id="258" parent="239" name="cloud_user_ibfk_1">
+    <foreign-key id="262" parent="239" name="cloud_user_ibfk_1">
       <ColNames>auth_lv</ColNames>
       <RefSchemaName>byq</RefSchemaName>
       <RefTableName>auth_level</RefTableName>
       <RefColNames>auth_lv</RefColNames>
     </foreign-key>
-    <column id="259" parent="240" name="func_id">
+    <column id="263" parent="240" name="func_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="260" parent="240" name="func_level">
+    <column id="264" parent="240" name="func_level">
       <Position>2</Position>
       <Comment>功能等级</Comment>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="261" parent="240" name="parent">
+    <column id="265" parent="240" name="parent">
       <Position>3</Position>
       <Comment>父功能id</Comment>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="262" parent="240" name="func_name">
+    <column id="266" parent="240" name="func_name">
       <Position>4</Position>
       <DataType>varchar(50)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="263" parent="240" name="auth_lv">
+    <column id="267" parent="240" name="auth_lv">
       <Position>5</Position>
       <Comment>权限等级</Comment>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="264" parent="240" name="func_url">
+    <column id="268" parent="240" name="func_url">
       <Position>6</Position>
       <DataType>varchar(500)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="265" parent="240" name="fk_id">
+    <index id="269" parent="240" name="fk_id">
       <ColNames>auth_lv</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="266" parent="240" name="PRIMARY">
+    <key id="270" parent="240" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>func_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="267" parent="240" name="main_function_ibfk_1">
+    <foreign-key id="271" parent="240" name="main_function_ibfk_1">
       <ColNames>auth_lv</ColNames>
       <RefSchemaName>byq</RefSchemaName>
       <RefTableName>auth_level</RefTableName>
       <RefColNames>auth_lv</RefColNames>
+    </foreign-key>
+    <column id="272" parent="241" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="273" parent="241" name="user_id">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="274" parent="241" name="update">
+      <Position>3</Position>
+      <Comment>更新的数值, 正数为增加,负数为减少</Comment>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="275" parent="241" name="date">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="276" parent="241" name="description">
+      <Position>5</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="277" parent="241" name="score_log_cloud_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="278" parent="241" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="279" parent="241" name="score_log_cloud_user_id_fk">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>byq</RefSchemaName>
+      <RefTableName>cloud_user</RefTableName>
+      <RefColNames>id</RefColNames>
     </foreign-key>
   </database-model>
 </dataSource>

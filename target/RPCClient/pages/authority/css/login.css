@@ -36,16 +36,6 @@ body, html {
 .form-content table td {
     padding: 10px;
 }
-.button-panel {
-    width: fit-content;
-    margin: 20px auto;
-}
-.button-panel .btn + .btn {
-    margin-left: 50px;
-}
-.btn-wide {
-    width: 100%;
-}
 .background-img {
     width: auto;
     height: 120%;
@@ -53,11 +43,6 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.blur {
-    filter: blur(blur.svg#blur);
-    -webkit-filter: blur(10px); /* Chrome, Opera */
-    -ms-filter: blur(10px);
 }
 .login-form {
     padding: 30px 20px 0 20px;
@@ -70,11 +55,4 @@ body, html {
     height: auto;
     border-radius: 10px;
     overflow: hidden;
-}
-.form-table {
-    width: 80%;
-    margin: 0 auto;
-}
-table.form-table td {
-    padding: 10px;
 }

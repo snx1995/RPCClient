@@ -21,6 +21,10 @@ public final class RequestResult {
         return JSON.toJson(new Response(200, result));
     }
 
+    public static String forbidden(Object result) {
+        return JSON.toJson(new Response(403, result));
+    }
+
     public static String error(Object result) {
         return JSON.toJson(new Response(500, result));
     }

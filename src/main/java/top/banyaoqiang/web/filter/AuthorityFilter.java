@@ -13,11 +13,14 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by 班耀强 on 2018/8/23
  */
 public class AuthorityFilter implements Filter {
+    private static int visitorId = 10000;
+
     private static final Logger logger = LoggerFactory.getLogger(AuthorityFilter.class);
 
     @Override
@@ -38,38 +41,16 @@ public class AuthorityFilter implements Filter {
         logger.debug("请求路径 {}", url);
         logger.debug("Session id {}", sessionId);
 
-//        if (url.equals(ProjectPage.INDEX_PAGE)) {
-//            filterChain.doFilter(request, response);
-//            return;
-//        }
-//
-//        if (!(url.equals(ProjectPage.LOGIN_PAGE) || url.equals(ProjectPage.UNAUTHORISED_PAGE))) {
-//            if (request.getSession().getAttribute(ProjectAttributeKey.LOGIN_USER) == null) {
-//                if (url.equals("/") || url.endsWith(".html")) response.sendRedirect(ProjectPage.UNAUTHORISED_PAGE);
-//            } else {
-//                logger.debug("已登录的请求 {}", url);
-//            }
-//        }
         User loginUser;
-        List<String> functions;
+        if (session.getAttribute(ProjectAttributeKey.LOGIN_USER) == null) {
+            loginUser = newVisitor();
+            session.setAttribute(ProjectAttributeKey.LOGIN_USER, loginUser);
+        }
+        else loginUser = (User) session.getAttribute(ProjectAttributeKey.LOGIN_USER);
 
-        if (url.endsWith(".html")) {
-            if (!ProjectPage.isCommonPage(url)) {
-                if ((loginUser = (User) session.getAttribute(ProjectAttributeKey.LOGIN_USER)) == null) {
-                    logger.debug("未登陆的请求 {}", url);
-                    response.sendRedirect(ProjectPage.UN_LOGIN_PAGE);
-                    return;
-                } else if ((functions = (List<String>) session.getAttribute(ProjectAttributeKey.LOGIN_USER_FUNCTIONS)) == null) {
-                    logger.error("无用户 {} 的功能权限信息.", loginUser.getId());
-                    response.sendRedirect(ProjectPage.ERROR_PAGE);
-                    return;
-                } else {
-                    if (!functions.contains(url)) {
-                        response.sendRedirect(ProjectPage.UNAUTHORISED_PAGE);
-                        return;
-                    }
-                }
-            }
+        if (url.endsWith(".html") && !ProjectPage.isQualified(loginUser, url)) {
+            response.sendRedirect(ProjectPage.UNQUALIFIED_PAGE);
+            return;
         }
 
         filterChain.doFilter(request, response);
@@ -78,5 +59,12 @@ public class AuthorityFilter implements Filter {
     @Override
     public void destroy() {
 
+    }
+
+    private static User newVisitor() {
+        User visitor = new User();
+        visitor.setName("游客" + (visitorId ++));
+        visitor.setAuthLv(11);
+        return visitor;
     }
 }

@@ -1,0 +1,73 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+body > h1 {
+    padding-left: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 80px;
+    z-index: 100;
+    line-height: 80px;
+    text-align: center;
+}
+body > h1 i {
+    display: inline-block;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+}
+.content {
+    position: absolute;
+    left: 400px;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+    overflow: auto;
+    background-color: #fff;
+}
+.content .header {
+    width: fit-content;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.content form {
+    padding-top: 80px;
+    display: block;
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+.side-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+}
+.side-content img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 120%;
+    width: auto;
+    transform: translate(-50%, -50%);
+}
+.required::before {
+    content: "*";
+    color: red;
+}
+a {
+    color: inherit;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}

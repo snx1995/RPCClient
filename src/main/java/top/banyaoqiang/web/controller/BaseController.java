@@ -3,6 +3,9 @@ package top.banyaoqiang.web.controller;
 import org.omg.CORBA.INTERNAL;
 
 import javax.servlet.http.HttpServletRequest;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * 包含一些基本公用算法
@@ -55,5 +58,17 @@ public abstract class BaseController {
             result[i] = Float.parseFloat(sp[i]);
         }
         return result;
+    }
+
+    protected Date getDateParam(HttpServletRequest request, String key) {
+        String ds = getStringParam(request, key);
+        Date date;
+        try {
+            DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+            date = format.parse(ds);
+        } catch (Exception e) {
+            date = null;
+        }
+        return date;
     }
 }
